@@ -42,7 +42,7 @@
     "uuid": "^3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=4000 react-scripts start",
     "build": "react-scripts build",
     "test": "mocha test/helpers/browser.js test/*.js",
     "eject": "react-scripts eject"
